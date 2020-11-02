@@ -1,0 +1,35 @@
+/* global styling */
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+    margin: auto;
+    width: 90%; 
+    padding-top: 3.5rem;
+} 
+.sec-a h1{ 
+    padding: 1rem 0; 
+    width: 90%; 
+    margin: auto; 
+    text-align: center; 
+    color: 	#552154;
+    line-height: 0.95; 
+    font-size: 2.9rem;  
+} 
+.sec-a p{
+    width: 80%;
+    margin: auto;
+    color: rgba(128, 128, 128,0.9); 
+    font-size: 1.2rem; 
+    line-height: 1.8rem;
+    text-align: center;
+    font-weight: 500;
+    
+}
