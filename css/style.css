@@ -1,8 +1,9 @@
 /* global styling */ 
 :root{
     --purp: #552154;
-    --fade: rgba(128, 128, 128,0.9); 
-}
+    --fade: rgba(128, 128, 128,0.9);  
+    --lightpurp:  #ca4ac8;
+} 
 
 *{
     margin: 0; 
@@ -21,7 +22,8 @@ body{
 } 
 .sec-a h1{ 
     padding: 1rem 0; 
-    width: 90%; 
+    min-width: 300px;  
+    max-width: 400px;
     margin: auto; 
     text-align: center; 
     color: 	var(--purp);
@@ -30,7 +32,8 @@ body{
 } 
 
 .sec-a p{
-    width: 100%;
+    max-width: 450px; 
+    min-width: 300px;;
     margin: auto;
     color: var(--fade);
     font-size: 1.4rem; 
@@ -56,4 +59,41 @@ body{
     text-align: center;
     font-weight: bold;
     color: var(--purp);
+}  
+
+
+.card{
+    margin:  1.4rem auto;
+    background: var(--purp); 
+    color: white; 
+    padding: 2.25rem;  
+    max-width: 500px; 
+    border-radius: 10pX;
 } 
+.card .card-sec-a{
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 1.5rem;
+}
+.card .card-sec-a .card-icon img{
+    width: 65%;
+    border-radius: 60px;  
+    margin-right: 0rem;
+}
+
+
+.card .card-sec-a .card-text .ct-1{
+    font-weight: bold;
+}
+
+.card .card-sec-a .card-text .ct-2{
+    color: var(--lightpurp);
+} 
+
+.card .card-sec-b{
+    margin: auto;
+    width: 92%;
+    font-size: 1.2rem;
+    line-height: 1.8; 
+    color: lightgrey;
+}
