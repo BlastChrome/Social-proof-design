@@ -1,4 +1,9 @@
-/* global styling */
+/* global styling */ 
+:root{
+    --purp: #552154;
+    --fade: rgba(128, 128, 128,0.9); 
+}
+
 *{
     margin: 0; 
     padding: 0; 
@@ -19,17 +24,36 @@ body{
     width: 90%; 
     margin: auto; 
     text-align: center; 
-    color: 	#552154;
+    color: 	var(--purp);
     line-height: 0.95; 
     font-size: 2.9rem;  
 } 
+
 .sec-a p{
-    width: 80%;
+    width: 100%;
     margin: auto;
-    color: rgba(128, 128, 128,0.9); 
-    font-size: 1.2rem; 
+    color: var(--fade);
+    font-size: 1.4rem; 
     line-height: 1.8rem;
     text-align: center;
-    font-weight: 500;
-    
+    font-weight: 400;
+    padding-bottom: 3.5rem; 
+    padding-top: 1.0rem; 
+} 
+
+.sec-b .rev-container{
+    margin: auto; 
 }
+
+.sec-b .star-container{
+    text-align: center;
+    margin-bottom: .6rem;
+}
+
+
+.sec-b .rev-text{ 
+    margin-bottom: 3.3rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--purp);
+} 
