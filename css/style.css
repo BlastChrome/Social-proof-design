@@ -44,8 +44,19 @@ body{
     padding-top: 1.0rem; 
 } 
 
+
 .sec-b .rev-container{
-    margin: auto; 
+    margin: 1.6rem auto; 
+    background: rgba(255, 185, 251, 0.363); 
+    border-radius: 4px;
+    max-width: 500px;  
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    
+} 
+
+.sec-b .rev-container svg{
+    width: 1.5rem;
 }
 
 .sec-b .star-container{
@@ -55,12 +66,15 @@ body{
 
 
 .sec-b .rev-text{ 
-    margin-bottom: 3.3rem;
+    /* margin-bottom: 2.3rem; */
     text-align: center;
     font-weight: bold;
     color: var(--purp);
 }  
 
+.sec-c{
+    margin-top: 5rem;
+}
 
 .card{
     margin:  1.4rem auto;
@@ -96,4 +110,62 @@ body{
     font-size: 1.2rem;
     line-height: 1.8; 
     color: lightgrey;
-}
+} 
+
+
+/* Desktop section */ 
+
+@media only screen and (min-width: 800px) {
+    .main-container{
+        margin: auto; 
+        max-width: 1440px; 
+        padding-top: 70px;  
+        
+    }  
+
+   .top-container{
+    display: flex; 
+    justify-content: space-between; 
+   }
+    .sec-a h1{ 
+        min-width: 400px;  
+        max-width: 550px;
+        margin: auto 0; 
+        text-align: left; 
+        line-height: 1.0; 
+        font-size: 4.0rem;  
+    }   
+
+    .sec-a p{
+        max-width: 600px; 
+        min-width: 300px;
+        margin: auto 0;
+        font-size: 1.4rem; 
+        line-height: 2.7rem;
+        text-align: left;
+    }   
+
+    .sec-b .rev-container{
+        display: flex;
+        justify-content: center;
+        border-radius: 4px;
+        min-width: 550px;   
+        padding: 1rem;
+
+    }  
+    .sec-b .rev-text{
+        margin-left: 2rem;
+    }   
+
+    #rev-1{
+        margin-right: 12rem;
+    } 
+
+    #rev-2{
+        margin-right: 8rem;
+    }
+
+
+    
+
+  }
