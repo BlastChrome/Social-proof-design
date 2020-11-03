@@ -127,6 +127,7 @@ body{
     display: flex; 
     justify-content: space-between; 
    }
+
     .sec-a h1{ 
         min-width: 400px;  
         max-width: 550px;
@@ -140,21 +141,25 @@ body{
         max-width: 600px; 
         min-width: 300px;
         margin: auto 0;
-        font-size: 1.4rem; 
-        line-height: 2.7rem;
-        text-align: left;
+        font-size: 1.2rem; 
+        line-height: 2.0rem;
+        text-align: left; 
+        padding: 0; 
+        width: 80%;
     }   
 
     .sec-b .rev-container{
         display: flex;
         justify-content: center;
         border-radius: 4px;
-        min-width: 550px;   
-        padding: 1rem;
+        min-width: 550px;    
+        margin-bottom: 2rem;
+        padding: 0.7rem;
 
     }  
     .sec-b .rev-text{
-        margin-left: 2rem;
+        margin-left: 1.8rem; 
+        font-size: 1.2rem;
     }   
 
     #rev-1{
@@ -165,7 +170,33 @@ body{
         margin-right: 8rem;
     }
 
+    .sec-c{
+        display: flex;  
+        align-items: flex-start;
+        /* background: red; */
+    } 
+    .card{
+        margin-right: 2.5rem; 
+        margin-top: 0rem;
+        background: var(--purp); 
+        color: white; 
+        padding: 2.25rem;  
+        width: 550px; 
+        max-height: 400px; 
+        border-radius: 10pX;
+    }  
+    .card .card-sec-b{
+        font-size: 1.0rem;
+        line-height: 1.5; 
+    } 
 
+
+    .card-2{
+        margin-top: 1.3rem;
+    }
     
+    .card-3{
+        margin-top: 2.6rem;
+    }
 
   }
